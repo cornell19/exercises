@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -11,7 +10,7 @@ class Home extends StatelessWidget {
         trailing: CupertinoButton(
           child: Icon(
             CupertinoIcons.add,
-            color: Colors.white,
+            color: Color.fromRGBO(255, 255, 255, 1),
           ),
           onPressed: () => {},
         ),
